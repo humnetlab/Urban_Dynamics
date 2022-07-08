@@ -46,4 +46,6 @@ This work is implemented with Python3.8. Related packages include numpy, scipy, 
 (2) typicalBehavior(city): calculation of $\Delta KS$ and $KS_{HBT}$ for a given city.
 
 #### dailyRt_modeling_GBM.ipynb
-Urban form changing during COVID-19 peroid (before Sep. 30th, 2020) in Spain.
+(1) Urban form changing during COVID-19 peroid (before Sep. 30th, 2020) in Spain.
+
+(2) Modeling the spread of COVID-19 with mobility and urban form variables in 11 Spanish cities with GBM model, and explain the impacts of variables with SHAP package.
