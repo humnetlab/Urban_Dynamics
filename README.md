@@ -18,7 +18,7 @@ For each user, we first calcualte her Raduis of Gyration ($Rg$) to represent her
 
 $\mathbf{\mathit{x + y = z}}$
 
-where $n$ is the length of the sequence, $\mathbf{p}_i$ and $\mathbf{p}_h$ are the geographical coordinates of the $i$th visited location and the home location, respectively. The average $Rg$ values in each census tract in Boston and Los Angeles are present in the following figure.
+where $n$ is the length of the sequence, $\mathbf{p_i}$ and $\mathbf{p}_h$ are the geographical coordinates of the $i$th visited location and the home location, respectively. The average $Rg$ values in each census tract in Boston and Los Angeles are present in the following figure.
 
 ![alt text](./images/Rgs.png?raw=true)
 
