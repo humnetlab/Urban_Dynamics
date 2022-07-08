@@ -14,7 +14,7 @@ This data analysis framework aggregates the individual mobility traces data, to 
 
 For each user, we first calcualte her Raduis of Gyration ($Rg$) to represent her mobility scale centering at home. If we consider one user's mobility behavior during a certain period as a sequence of visited locations sorted in time, $Rg$ is calculated as
 
-![alt text](./images/RgEq.png =150x)
+<img src="./images/RgEq.png" width="200">
 
 where $n$ is the length of the sequence, $\boldsymbol{p}_i$ and $\boldsymbol{p}_h$ are the geographical coordinates of the $i$th visited location and the home location, respectively. The average $Rg$ values in each census tract in Boston and Los Angeles are present in the following figure.
 
