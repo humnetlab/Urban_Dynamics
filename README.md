@@ -44,3 +44,6 @@ This work is implemented with Python3.8. Related packages include numpy, scipy, 
 (1) KSIndexVSdistance(cities): calculation of KS index in rings centering at CBD for a given city.
 
 (2) typicalBehavior(city): calculation of $\Delta KS$ and $KS_{HBT}$ for a given city.
+
+#### dailyRt_modeling_GBM.ipynb
+Urban form changing during COVID-19 peroid (before Sep. 30th, 2020) in Spain.
