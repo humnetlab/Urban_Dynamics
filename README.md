@@ -13,11 +13,9 @@ This data analysis framework aggregates the individual mobility traces data, to 
 ### (II) "shelter-at-home" indicator $KS_{HBT}$, a metric to measure the "staying-at-home" of the population in a city.
 
 For each user, we first calcualte her Raduis of Gyration ($Rg$) to represent her mobility scale centering at home. If we consider one user's mobility behavior during a certain period as a sequence of visited locations sorted in time, $Rg$ is calculated as
-%
-\begin{equation}
-    Rg = \sqrt{\sum_{i=1}^n{\frac{1}{n}(\boldsymbol{p}_i-\boldsymbol{p}_h)^2}}
-\end{equation}
-%
+
+$Rg = \sqrt{\sum_{i=1}^n{\frac{1}{n}(\boldsymbol{p}_i-\boldsymbol{p}_h)^2}}$
+
 where $n$ is the length of the sequence, $\boldsymbol{p}_i$ and $\boldsymbol{p}_h$ are the geographical coordinates of the $i$th visited location and the home location, respectively. The average $Rg$ values in each census tract in Boston and Los Angeles are present in the following figure.
 
 ![alt text](./images/Rgs.png?raw=true)
