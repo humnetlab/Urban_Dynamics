@@ -28,7 +28,7 @@ To understand the urban form from the respective of human mobility, we group pop
 
 ![alt text](./images/DeltaKS.png?raw=true)
 
-Next, we define another metric $KS_{HBT}$ to quantify the effectiveness of "shelter-in-place" order duing crisis events. $KS_{HTB}$ measures the distribution disparity between the actual $Rg$s and the $Rg$s if all population would be staying at or near home.
+Next, we define another metric $KS_{HBT}$ to quantify the effectiveness of "shelter-in-place" order duing crisis events. $KS_{HTB}$ measures the distribution disparity between the actual $Rg$ values and the $Rg$ values if all population would be staying at or near home.
 
 
 ## Struture of source code:
