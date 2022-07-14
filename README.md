@@ -33,7 +33,7 @@ Next, we define another metric $KS_{HBT}$ to quantify the effectiveness of "shel
 
 ## Struture of source code:
 
-This work is implemented with Python3.8. Related packages include numpy, scipy, matplotlib, scikitlearn, geojson, fiona, rtee.
+This work is implemented with Python3.9. Related packages include numpy, pandas, scipy, matplotlib, seaborn, lightgbm, shap, geojson, fiona, rtee.
 
 #### step0_dataPreparation.py: 
 (1) cityGiniPopulation(cities): extracting the population information of a given city from LandScan data.
