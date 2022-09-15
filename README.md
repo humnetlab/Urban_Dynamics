@@ -5,6 +5,7 @@ Source code for "Urban Forms Through the Lens of Human Mobility"
 
 Developed by Yanyan Xu (yanyanxu@sjtu.edu.cn) and Marta Gonzalez, Human Mobility and Networks Lab (http://humnetlab.berkeley.edu/), UC Berkeley
 
+Data were analyzed using python3.8.7, numpy 1.19.5, scipy 1.6.0, pandas 1.2.1, osgeo 2.2.3, lightgbm 3.1.1, shap 0.40.0, matplotlib 3.5.2, seaborn 0.11.1. The code were compiled in Ubuntu 18.04.
 
 This data analysis framework aggregates the individual mobility traces data, to quantify the collective mobility beahavior from two aspects,
 
@@ -12,7 +13,7 @@ This data analysis framework aggregates the individual mobility traces data, to 
 
 ### (II) "shelter-at-home" indicator $KS_{HBT}$, a metric to measure the "staying-at-home" of the population in a city.
 
-For each user, we first calcualte her Raduis of Gyration ($Rg$) to represent her mobility scale centering at home. If we consider one user's mobility behavior during a certain period as a sequence of visited locations sorted in time, $Rg$ is calculated as
+For each user, we first calcualte her Raduis of Gyration ( $Rg$ ) to represent her mobility scale centering at home. If we consider one user's mobility behavior during a certain period as a sequence of visited locations sorted in time, $Rg$ is calculated as
 
 <img src="./images/RgEq.png" width="250">
 
