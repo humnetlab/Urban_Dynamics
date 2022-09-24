@@ -13,11 +13,10 @@ import itertools, collections
 
 import matplotlib.pyplot as plt
 
-
 import step0_dataPreparation
 
 
-dataPath = "/Volumes/TOSHIBA EXT/Study/HuMNetLab/Data/Spain/"
+dataPath = "data/"
 
 cities_spain = ["Madrid", "Barcelona", "Valencia", "Alicante", "Coruna", \
         "Zaragoza", "Sevilla", "Malaga", "Bilbao", "SantaCruz", "Granada"]
@@ -64,8 +63,6 @@ cityFaceColors = {"Madrid": "None", "Barcelona": "None", "Valencia": "None", \
     "Bogota": "#95ad05", "Boston": "#009145", "SFBay": "#207492",
     "Lisbon": "#5c2b7c", "Porto": "#ba2db3", "Rio": "#f7987f",
     "Shenzhen": "#1fc1b1", "Wuhan": "#b7583e", "Shanghai": "#4f4e4e"}
-
-
 
 
 

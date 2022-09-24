@@ -17,7 +17,7 @@ from PIL import Image, ImageDraw
 import tifffile as TIF
 
 
-dataPath = "/Volumes/TOSHIBA EXT/Study/HuMNetLab/Data/Spain/"
+dataPath = "data/"
 
 cities_spain = ["Madrid", "Barcelona", "Valencia", "Alicante", "Coruna", \
         "Zaragoza", "Sevilla", "Malaga", "Bilbao", "SantaCruz", "Granada"]
@@ -460,17 +460,7 @@ def findCityBoundary(city):
 
 
 def cityGiniPopulation(cities):
-    '''
-    cityGinis = dict()
-    for city in cities:
-        cityRadius, cityRadius_small, giniPop, giniPop_over500, uci, _, _ = findCityBoundary(city)
-        cityGinis[city] = [giniPop, giniPop_over500, uci]
-        print(city, giniPop, giniPop_over500, uci)
-
-    pickle.dump(cityGinis, open(dataPath + "results/cityPopGinis_us.pkl", "wb"), \
-        pickle.HIGHEST_PROTOCOL)
-    '''
-
+    
     cityInfo = dict()
     for city in cities:
         cityRadius, totalPop, giniPop, giniPop_over500, uci, meanPop, crowdingPop = findCityBoundary(city)
