@@ -54,6 +54,9 @@ This work is implemented with Python3.9. Related packages include numpy, pandas,
 
 ## Running the code with data in one specific city:
 For one city, the required data to reproduce the results include:
+
 (1) shapefile of the city region and its boundary, the geographic location of CBD
+
 (2) popualtion distribution at 1km2 resolution
+
 (3) the mobile traces (a sequence of stay locations) of a large number of residents or their daily $Rg$ and home location
