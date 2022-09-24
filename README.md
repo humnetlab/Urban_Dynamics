@@ -50,3 +50,10 @@ This work is implemented with Python3.9. Related packages include numpy, pandas,
 (1) Urban form changing during COVID-19 peroid (before Sep. 30th, 2020) in Spain.
 
 (2) Modeling the spread of COVID-19 with mobility and urban form variables in 11 Spanish cities with GBM model, and explain the impacts of variables with SHAP package.
+
+
+## Running the code with data in one specific city:
+For one city, the required data to reproduce the results include:
+(1) shapefile of the city region and its boundary, the geographic location of CBD
+(2) popualtion distribution at 1km2 resolution
+(3) the mobile traces (a sequence of stay locations) of a large number of residents or their daily $Rg$ and home location
