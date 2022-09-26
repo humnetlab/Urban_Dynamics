@@ -7,6 +7,8 @@ Developed by Yanyan Xu (yanyanxu@sjtu.edu.cn) and Marta Gonzalez, Human Mobility
 
 Data were analyzed using python 3.8.7, numpy 1.19.5, scipy 1.6.0, pandas 1.2.1, osgeo 2.2.3, lightgbm 3.1.1, shap 0.40.0, matplotlib 3.5.2, seaborn 0.11.1. The code were compiled in Ubuntu 18.04.
 
+The estiamte of $R_t$ was implemented with R 4.1.2, using R packages EpiEstim 2.2-4, ggplot2 3.3.5, incidence 1.7.3. The code were compiled in Ubuntu 18.04.
+
 This data analysis framework aggregates the individual mobility traces data, to quantify the collective mobility beahavior from two aspects,
 
 ### (I) urban form metric $\Delta KS$, a metric to measure the spatial heterogeneity of mobility scale (Rg);
@@ -51,6 +53,9 @@ This work is implemented with Python3.9. Related packages include numpy, pandas,
 
 (2) Modeling the spread of COVID-19 with mobility and urban form variables in 11 Spanish cities with GBM model, and explain the impacts of variables with SHAP package.
 
+
+## Estiamte of $R_t$ in the studies 11 Spanish cities:
+We use the EpiEstim R package (https://cran.r-project.org/web/packages/EpiEstim/) to estiamte the time-varying reproduction number $R_t$ in each Spanish city. Please find the source code in "Rt_estimate.R". 
 
 ## Running the code with data in one specific city:
 For one city, the required data to reproduce the results include:
