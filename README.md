@@ -55,7 +55,7 @@ This work is implemented with Python3.9. Related packages include numpy, pandas,
 
 
 ## Estiamte of $R_t$ in the studies 11 Spanish cities:
-We use the EpiEstim R package (https://cran.r-project.org/web/packages/EpiEstim/) to estiamte the time-varying reproduction number $R_t$ in each Spanish city. Please find the source code in "Rt_estimate.R". 
+We use the EpiEstim R package (https://cran.r-project.org/web/packages/EpiEstim/) to estiamte the time-varying reproduction number $R_t$ in each Spanish city. Please find the source code in "Rt_estimate.R". The covid data in Spain were obtained from https://github.com/montera34/escovid19data
 
 ## Running the code with data in one specific city:
 For one city, the required data to reproduce the results include:
