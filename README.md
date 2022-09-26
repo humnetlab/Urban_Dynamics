@@ -59,4 +59,4 @@ For one city, the required data to reproduce the results include:
 
 (2) popualtion distribution at 1km2 resolution
 
-(3) the mobile traces (a sequence of stay locations) of a large number of residents or their daily $Rg$ and home location
+(3) the mobile traces (a sequence of stay locations) of a large number of residents or their daily $Rg$ and home locations
