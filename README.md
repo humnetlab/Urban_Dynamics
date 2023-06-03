@@ -1,7 +1,7 @@
 # Urban Forms Through the Lens of Human Mobility
 
 
-Source code for "Urban Forms Through the Lens of Human Mobility"
+Source code for "Urban Dynamics Through the Lens of Human Mobility"
 
 Developed by Yanyan Xu (yanyanxu@sjtu.edu.cn) and Marta Gonzalez, Human Mobility and Networks Lab (http://humnetlab.berkeley.edu/), UC Berkeley
 
@@ -47,6 +47,18 @@ This work is implemented with Python3.9. Related packages include numpy, pandas,
 (1) KSIndexVSdistance(cities): calculation of KS index in rings centering at CBD for a given city.
 
 (2) typicalBehavior(city): calculation of $\Delta KS$ and $KS_{HBT}$ for a given city.
+
+#### step2_COVIDdataAnalysis.py
+
+Process the covid-19 data in Spain and visualize the data.
+
+#### step3_socioeconomicAnalysis.py
+
+Socio-economic analysis for Boston, LA, and Bogota cities.
+
+#### step4_SupplementaryFigures.py
+
+Plot the figures in the Supplymentary Information for our paper.
 
 #### dailyRt_modeling_GBM.ipynb
 (1) Urban form changing during COVID-19 peroid (before Sep. 30th, 2020) in Spain.
